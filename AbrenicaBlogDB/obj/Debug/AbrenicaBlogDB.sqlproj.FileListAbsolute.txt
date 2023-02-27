@@ -1,0 +1,6 @@
+C:\Users\PC\source\repos\AbrenicaLE2\AbrenicaBlogDB\bin\Debug\AbrenicaBlogDB.dacpac
+C:\Users\PC\source\repos\AbrenicaLE2\AbrenicaBlogDB\bin\Debug\AbrenicaBlogDB.dll
+C:\Users\PC\source\repos\AbrenicaLE2\AbrenicaBlogDB\bin\Debug\AbrenicaBlogDB.pdb
+C:\Users\PC\source\repos\AbrenicaLE2\AbrenicaBlogDB\obj\Debug\AbrenicaBlogDB.sqlproj.AssemblyReference.cache
+C:\Users\PC\source\repos\AbrenicaLE2\AbrenicaBlogDB\obj\Debug\AbrenicaBlogDB.dll
+C:\Users\PC\source\repos\AbrenicaLE2\AbrenicaBlogDB\obj\Debug\AbrenicaBlogDB.pdb
