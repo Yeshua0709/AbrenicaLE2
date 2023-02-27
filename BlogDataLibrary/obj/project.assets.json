@@ -688,11 +688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogDataLibrary\\BlogDataLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogDataLibrary\\BlogDataLibrary.csproj",
       "projectName": "BlogDataLibrary",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogDataLibrary\\BlogDataLibrary.csproj",
+      "projectPath": "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogDataLibrary\\BlogDataLibrary.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogDataLibrary\\obj\\",
+      "outputPath": "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogDataLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

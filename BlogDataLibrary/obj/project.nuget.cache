@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0uUNg285RpKhf3hNo/0dirzWo0H/CA0Q8x5WZ7SvMYk0xcjiQmGNS51GRhfqcxuxmCCp6jN4IMFyaxjVPSIZ7g==",
+  "dgSpecHash": "rHlj3cRgvimBIr0OuaTj6BANyhNJu3p6EbYafktLsCl3HdI9ebVOnUS02QX94wFfas2h+rjoiZPz0pwe9Xnrxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogDataLibrary\\BlogDataLibrary.csproj",
+  "projectFilePath": "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogDataLibrary\\BlogDataLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

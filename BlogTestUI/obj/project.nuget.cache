@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RLXOprhfsuiX6kHRYyKeq8T0iArL3BBDJLAvmqju90Q94E26t2I1n++3Q/l5M1DUaBN6bMoyxnZ14olNs9Bohw==",
+  "dgSpecHash": "JIz7/3lrH9WMmzhPTwZorkygOQVbICmMuEzY1W1n4mvFcPURKBrOVpj2Q3a69NQAJ7yVQAEtft1sGtz6QtJfSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogTestUI\\BlogTestUI.csproj",
+  "projectFilePath": "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogTestUI\\BlogTestUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

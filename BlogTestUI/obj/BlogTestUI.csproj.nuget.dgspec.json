@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogTestUI\\BlogTestUI.csproj": {}
+    "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogTestUI\\BlogTestUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogTestUI\\BlogTestUI.csproj": {
+    "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogTestUI\\BlogTestUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogTestUI\\BlogTestUI.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogTestUI\\BlogTestUI.csproj",
         "projectName": "BlogTestUI",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogTestUI\\BlogTestUI.csproj",
+        "projectPath": "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogTestUI\\BlogTestUI.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\AbrenicaLE2\\BlogTestUI\\obj\\",
+        "outputPath": "C:\\Users\\PC\\OneDrive - Mapúa University\\2. 3rd Term\\IT128-8L\\LE1-2\\BlogTestUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
