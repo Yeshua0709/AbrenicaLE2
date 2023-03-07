@@ -18,5 +18,4 @@ namespace BlogDataLibrary.Models
         public string LastName { get; set; }
         
     }
-    // Test Change
 }
