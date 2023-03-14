@@ -16,19 +16,75 @@ namespace BlogTestUI
         {
             SqlData db = GetConnection();
 
+            Console.WriteLine("LOGIN");
+            Authenticate(db);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("REGISTER");
+            Register(db);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("ADD A POST");
+            AddPost(db);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("SHOW ALL POSTS");
+            ListPosts(db);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("SHOW A SPECIFIC POST");
+            ShowPostDetails(db);
+            Console.WriteLine("");
+            Console.WriteLine("");
 
-           // Register(db);
 
-           Authenticate(db);
-            // AddPost(db);
-          //  ListPosts(db);
-           // ShowPostDetails(db);
+            /*
 
-            Console.WriteLine("Press Enter to exit...");
-            Console.ReadLine();
+            int choice = 0;
+            string strchoice;
+            
 
-           
+            Console.WriteLine("Welcome to the Blog Application");
+
+            Console.WriteLine("Select Action");
+
+            Console.WriteLine("1. Log In\n2. Register\n3. Add Post\n4. List Post\n5. Show Post Details\n6. Exit");
+            Console.Write("Input Number:");
+            strchoice = Console.ReadLine();
+            choice = int.Parse(strchoice);
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            if (choice == 1) { Authenticate(db); }
+
+            else if(choice == 2) { Register(db); }
+
+            else if (choice == 3) { AddPost(db); }
+            else if (choice == 4) { ListPosts(db); }
+            else if (choice == 5) { ShowPostDetails(db);  }
+            else if (choice == 6) { Environment.Exit(0); }
+
+            else
+            {
+               
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Main(args);
+            }
+            
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Main(args);
+
+            */
+
+
+
+
+
         }
+
 
         static SqlData GetConnection()
         {
