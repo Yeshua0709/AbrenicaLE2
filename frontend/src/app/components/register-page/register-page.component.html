@@ -1,44 +1,66 @@
-<h1>Register Page</h1>
+<div class="background">
 
-<form 
+    <div class="container">
 
-    name ="form"
-    (ngSubmit)="onSubmit()"
-    #f ="ngForm">
+        <div class="container-flexbox">
 
-    <label for ="username"> Username</label>
-    <input 
+            <h1 class="title">REGISTER</h1>
+
+            <form name="Form" (ngSubmit)="onSubmit()" #f="ngForm" novalidate>
+
+                
+                <div class="formSection">
+
+                    <input 
         type="text"
         name = "username"
         [(ngModel)] = "form.username"
         required
-        #username="ngModel" />
+        #username="ngModel" placeholder="Username"/>
+                </div>
 
+                <div class="formSection">
 
-   <label for ="password"> Password</label>
-    <input 
+                    <input 
         type="password"
         name = "password"
         [(ngModel)] = "form.password"
         required
-        #password="ngModel" />
-        
-        <label for ="firstName"> First Name</label>
-        <input 
-            type="text"
-            name = "firstName"
-            [(ngModel)] = "form.firstName"
-            required
-            #firstName="ngModel" />
+        #password="ngModel" placeholder="Password" />
+                </div>
 
 
-            <label for ="lastName">Last Name</label>
-            <input 
+                <div class="formSection">
+                    <input 
+                    type="text"
+                    name = "firstName"
+                    [(ngModel)] = "form.firstName"
+                    required
+                    #firstName="ngModel" placeholder="First Name" />
+                </div>
+                
+
+                <div class="formSection">
+                    <input 
                 type="text"
                 name = "lastName"
                 [(ngModel)] = "form.lastName"
                 required
-                #lastName="ngModel" />
+                #lastName="ngModel" placeholder="Last Name"/>
+                </div>
 
-                <button>Submit</button>
-</form>
+
+                <button>Signup</button>
+                <a class="signupBtn" href="/">Already have an account?</a>
+
+            </form>
+
+            
+           
+  
+
+        </div>
+
+    </div>
+
+</div>

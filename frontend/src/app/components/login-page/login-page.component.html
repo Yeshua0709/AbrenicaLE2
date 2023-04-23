@@ -1,27 +1,40 @@
-<h1>LOGIN</h1>
-<div>
+<div class="background">
 
-    <h1>Welcome Back</h1>
-    <h3>Login Here</h3>
+    <div class="container">
 
-    <form name="Form" (ngSubmit) = "onSubmit()" #f="ngForm" novalidate>
-        <div>
+        <div class="container-flexbox">
 
-            <label for="username">Email</label>
-            <input required type="text"
-                name="username"
-                [(ngModel)] = "form.username"
-                #username="ngModel">
+            <h1 class="title">LOGIN</h1>
 
+            <form name="Form" (ngSubmit)="onSubmit()" #f="ngForm" novalidate>
 
-                <label for="password">Password</label>
-                <input type="password"
-                name="password"
-                [(ngModel)] = "form.password"
-                required
-                #password="ngModel">
+                
+                <div class="formSection">
+
+                    <input required type="text" name="username" [(ngModel)]="form.username" #username="ngModel" placeholder="Username">
+                </div>
+
+                <div class="formSection">
+
+                    <input type="password" name="password" [(ngModel)]="form.password" required #password="ngModel" placeholder="Password">
+                </div>
+
+                <div *ngIf="loginError" class="error">
+                  
+                    <p>Wrong Username or Password</p>
+                  </div>
+
+                <button>Submit</button>
+                <a class="signupBtn" href="/register-page">Signin</a>
+
+            </form>
+
+            
+           
+  
 
         </div>
-        <button>Submit</button>
-    </form>
+
+    </div>
+
 </div>

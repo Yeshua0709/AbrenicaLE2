@@ -9,13 +9,13 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './post-detail.component.html',
   styleUrls: ['./post-detail.component.css']
 })
-
-
 export class PostDetailComponent {
 
   private routeSub: Subscription = new Subscription ();
   private id :number = 0;
-  
+  username:string = "";
+
+  // Declare 'password' variable
   post?: Post;
 
   constructor(
@@ -26,18 +26,23 @@ export class PostDetailComponent {
     this.routeSub = this.route.params.subscribe( params =>{
       this.id = params['id'];
       this.initData();
+     
+    
     })
-   
   }
 
   initData(): void{
     this.http.get<Post>("https://localhost:7027/api/post/"+this.id ).subscribe({
-
-    next: (data:Post) => {
-      this.post = data;
-      console.log(this.post)
-     
-    }
+      next: (data:Post) => {
+        this.post = data;
+        
+        
+      }
     })
+
+      // Get the query parameter from the URL
+      this.route.queryParams.subscribe(params => {
+        this.username = params['username'];
+      });
   }
 }

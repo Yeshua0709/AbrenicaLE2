@@ -1,5 +1,86 @@
-<div *ngFor="let post of posts"> 
 
-    <h3><a href="/posts/{{ post.id }}"> {{post.title}}</a></h3>
-<p>by {{post.firstName}} {{post.lastName}} : on {{post.dateCreated}}</p>
+<div class="posts-container">
+
+
+    <header>
+        <h1>BlogBook</h1>
+    </header>
+    
+    
+    <div class="container">
+    
+        <div class="profile">
+
+            <div class="profileName">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>
+    
+    
+                <p class="nameinfo">{{username}}</p>
+            </div>
+           
+            <div class="profileName">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                    <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                  </svg>
+    
+    
+                <a href="/"class="nameinfo logut">Logout</a>
+            </div>
+        </div>
+    
+    
+        <section>
+
+            <div *ngFor="let post of posts" class="post-box"> 
+                <div class="postContent">
+          <div class="postHeader">
+            
+           
+            <h3><a href="/posts/{{ post.id }}"> {{post.title}}</a></h3>
+            <p class="date">{{post.dateCreated | date:'MMMM d, y'}}</p>
+          </div>  
+            <p class="username">by {{post.firstName}} {{post.lastName}} </p>
+            <p class="body">{{post.body | slice:0:30}}...</p>
 </div>
+           <div class="postAction">
+                <div class="actionOption">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                        <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                      </svg>
+
+                      <a href="/posts/{{ post.id }}" class="viewbtn">View</a>
+                </div>
+
+
+                <div class="actionOption">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+
+                      <a class="viewbtn">Like</a>
+                </div>
+
+
+
+           </div>
+          
+        
+        </div>
+
+        </section>
+    
+    
+    </div>
+
+    
+
+</div>
+
+
+
+
